@@ -1,0 +1,204 @@
+{
+	"id": "84d52e9c-e2e8-4f76-874c-f767483f3052",
+	"name": "User Petstore",
+	"timestamp": "2021-12-03T14:23:50.619Z",
+	"collection_id": "18343256-56100dc4-c4bf-46c8-a1c2-e29432584aee",
+	"folder_id": 0,
+	"environment_id": "ce8e7414-265a-4b0d-85c8-802cadc7cb74",
+	"totalPass": 5,
+	"totalFail": 2,
+	"results": [
+		{
+			"id": "a0d63c97-edfa-4f42-9eb2-d3f4f9c41786",
+			"name": "New Request",
+			"url": "https://petstore.swagger.io/v2/user",
+			"time": 157,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				157
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "10af5ac8-7fa8-48dd-b791-4cd967d7397d",
+			"name": "get user",
+			"url": "https://petstore.swagger.io/v2/user/dashundik28",
+			"time": 159,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				159
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "7ebfa9c9-bf21-4dda-917b-7b9aef30f5b9",
+			"name": "update user",
+			"url": "https://petstore.swagger.io/v2/user/dashundik28",
+			"time": 170,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				170
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "1eae3bca-3b8e-494a-9275-04665a1d5bea",
+			"name": "get user after update",
+			"url": "https://petstore.swagger.io/v2/user/dasha28",
+			"time": 184,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 200": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				184
+			],
+			"allTests": [
+				{
+					"Status code is 200": false
+				}
+			]
+		},
+		{
+			"id": "d9757fbb-c981-4b92-8f68-4b889c992f3d",
+			"name": "delete user",
+			"url": "https://petstore.swagger.io/v2/user/dasha28",
+			"time": 213,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				213
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "fc864c50-9f26-47c4-b304-8863a65a531c",
+			"name": "get user after delete",
+			"url": "https://petstore.swagger.io/v2/user/dasha28",
+			"time": 215,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 200": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				215
+			],
+			"allTests": [
+				{
+					"Status code is 200": false
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1098,
+	"collection": {
+		"requests": [
+			{
+				"id": "a0d63c97-edfa-4f42-9eb2-d3f4f9c41786",
+				"method": "POST"
+			},
+			{
+				"id": "10af5ac8-7fa8-48dd-b791-4cd967d7397d",
+				"method": "GET"
+			},
+			{
+				"id": "7ebfa9c9-bf21-4dda-917b-7b9aef30f5b9",
+				"method": "PUT"
+			},
+			{
+				"id": "1eae3bca-3b8e-494a-9275-04665a1d5bea",
+				"method": "GET"
+			},
+			{
+				"id": "d9757fbb-c981-4b92-8f68-4b889c992f3d",
+				"method": "DELETE"
+			},
+			{
+				"id": "fc864c50-9f26-47c4-b304-8863a65a531c",
+				"method": "GET"
+			}
+		]
+	}
+}
